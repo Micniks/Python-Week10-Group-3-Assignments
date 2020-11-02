@@ -21,13 +21,21 @@ cultist = {'name': {'stealth': int, 'influence': int, 'endurance': int, 'lore': 
 4. Make the following dict ***cult_roles*** as below. Each value represents how importent a skill is for the given role:
 `
 cult_roles {
+
 'Priest': {'stealth': 0, 'influence': 3, 'endurance': 1, 'lore': 3, 'economic': 0, 'strength': 0, 'insanity': 5},
+
 'Enforcer': {'stealth': 1, 'influence': 1, 'endurance': 3, 'lore': 0, 'economic': 0, 'strength': 4, 'insanity': 1},
+
 'Assassin': {'stealth': 4, 'influence': -1, 'endurance': 2, 'lore': 1, 'economic': 0, 'strength': 2, 'insanity': 3},
+
 'Recruiter': {'stealth': 1, 'influence': 4, 'endurance': 1, 'lore': 2, 'economic': 2, 'strength': 0, 'insanity': 4},
+
 'Accountant': {'stealth': 0, 'influence': 0, 'endurance': 1, 'lore': 2, 'economic': 5, 'strength': 1, 'insanity': -1},
+
 'Advisor': {'stealth': 0, 'influence': 2, 'endurance': 3, 'lore': 5, 'economic': 1, 'strength': 0, 'insanity': 2},
+
 'Initiate': {'stealth': 1, 'influence': 1, 'endurance': 1, 'lore': 1, 'economic': 1, 'strength': 1, 'insanity': 1}
+
 }
 `
 5. Make a method ***assign_cult_roles***, that takes the ***cult*** and ***cult_roles*** dicts, and returned the ***cult*** dict, where each name dict has gotten an attribute role. Each role should be assign on which of the roles have the highest 'score' when dotted between the name dict and the cult_roles.
