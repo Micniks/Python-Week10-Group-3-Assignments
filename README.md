@@ -33,16 +33,16 @@ cultist = {
 4. Make the following dict ***cult_roles*** as below. Each value represents how importent a skill is for the given role:
 ```python
 cult_roles = {
-'Priest': {'stealth': 0, 'influence': 3, 'endurance': 1, 'lore': 3, 'economic': 0, 'strength': 0, 'insanity': 5},
-'Enforcer': {'stealth': 1, 'influence': 1, 'endurance': 3, 'lore': 0, 'economic': 0, 'strength': 4, 'insanity': 1},
-'Assassin': {'stealth': 4, 'influence': -1, 'endurance': 2, 'lore': 1, 'economic': 0, 'strength': 2, 'insanity': 3},
-'Recruiter': {'stealth': 1, 'influence': 4, 'endurance': 1, 'lore': 2, 'economic': 2, 'strength': 0, 'insanity': 4},
-'Accountant': {'stealth': 0, 'influence': 0, 'endurance': 1, 'lore': 2, 'economic': 5, 'strength': 1, 'insanity': -1},
-'Advisor': {'stealth': 0, 'influence': 2, 'endurance': 3, 'lore': 5, 'economic': 1, 'strength': 0, 'insanity': 2},
-'Initiate': {'stealth': 1, 'influence': 1, 'endurance': 1, 'lore': 1, 'economic': 1, 'strength': 1, 'insanity': 1}
+'Priest': {'stealth': -1, 'influence': 3, 'endurance': 2, 'lore': 4, 'economic': 1, 'strength': 0, 'insanity': 5},
+'Enforcer': {'stealth': 1, 'influence': 3, 'endurance': 4, 'lore': 0, 'economic': -1, 'strength': 5, 'insanity': 2},
+'Assassin': {'stealth': 5, 'influence': -1, 'endurance': 4, 'lore': 1, 'economic': 0, 'strength': 2, 'insanity': 3},
+'Recruiter': {'stealth': 1, 'influence': 5, 'endurance': 0, 'lore': 3, 'economic': 2, 'strength': -1, 'insanity': 4},
+'Accountant': {'stealth': 2, 'influence': 1, 'endurance': 3, 'lore': 4, 'economic': 5, 'strength': 0, 'insanity': -1},
+'Advisor': {'stealth': 2, 'influence': 4, 'endurance': -1, 'lore': 5, 'economic': 3, 'strength': 0, 'insanity': 1}
 }
 ```
-5. Make a method ***assign_cult_roles***, that takes the ***cult*** and ***cult_roles*** dicts, and returns a ***all_cultists_roles*** dict, where each name from the cult is a key, and each has it's given role as value. Each role should be assign on which of the roles have the highest 'score' when dotted between the name dict and the cult_roles.
+5. Make a method ***assign_cult_roles***, that takes the ***cult*** and ***cult_roles*** dicts, and returns a ***all_cultists_roles*** dict, where each cultist's name from the cult is the key, and each has it's given role as value. Each role should be assign on which of the roles have the highest 'score' when dotted between the name dict and the cult_roles.
+6. Show how many cultist the cult have occupying each role. *(print is fine here)*
 
 
 
@@ -53,9 +53,9 @@ cult_roles = {
 2. Plot new recruits as a function to amount_spend.
 3. Plot new recruits as a function to total_amount.
 4. Make a model object from *klearn linear regression model* to use for the following assignments.
-5. Predict new recuits if amount_spend doubles
-6. Predict new recuits if total_amount decrease by 20%
-7. Reverse the data, to predict how much amount_spend should be, to make new_recruits equal to 1000
+5. Predict new recuits if amount_spend doubles the amount from 2020
+6. Predict new recuits if total_amount decrease by 20% of the amount from 2020
+7. Reverse the data, to predict how much amount_spend should be, to make new_recruits equal to 2020
 
 <img src="https://thebingbutt.files.wordpress.com/2019/01/buttcultgathering.jpg" alt="Cult Gathering">
 
