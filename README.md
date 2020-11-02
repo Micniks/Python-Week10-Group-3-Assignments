@@ -54,6 +54,6 @@ cult_roles {
 
 _______________________
 
-Vi benytter datasættene: [Random Names](pending...) & [Cult Statistics](pending...)
+Vi benytter datasættene: [Random Names](https://raw.githubusercontent.com/Micniks/Python-Week10-Group-3-Assignments/main/Random_Names.txt) & [Cult Statistics](https://raw.githubusercontent.com/Micniks/Python-Week10-Group-3-Assignments/main/cult_statistics.csv)
 
 Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [Uge7 Opgave](https://docs.google.com/document/d/1ojSiBWwLo4-Rc7763vx6aVEYdNluATOMja9qqk4dodU/edit#) 
