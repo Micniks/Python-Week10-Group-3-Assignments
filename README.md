@@ -11,12 +11,24 @@
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb485920-261e-46b9-896a-cb18fda5d929/dbvl0da-050b7754-242a-4a9f-adff-e4a4c8652fcd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYmI0ODU5MjAtMjYxZS00NmI5LTg5NmEtY2IxOGZkYTVkOTI5XC9kYnZsMGRhLTA1MGI3NzU0LTI0MmEtNGE5Zi1hZGZmLWU0YTRjODY1MmZjZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.39OiImVLazb8JFOfhDJWFl2529SJ7obSvPHoSpKNka4" alt="Cult Symbol" width="200">
 
 ## Assignment 1: Organize your cult
-*This assignment is meant to make a setup for the two others below, and needs to be completed before the assignement 2 & 3*
+
 1. Read in the random names in the file ***Random_Names.txt*** into a list ***cultist_names***.
 2. Make a support method ***recruit_cultist***, that takes a string **name**, and returns a dict with *skills* as below, each assigned a random int between 0 and 5:
-`
-cultist = {'name': {'stealth': int, 'influence': int, 'endurance': int, 'lore': int, 'economic': int, 'strength': int, 'insanity': int}}
-`
+```python
+min_score = 0
+max_score = 5
+cultist = {
+  'name': {
+    'stealth': random.randint(min_score, max_score), 
+    'influence': random.randint(min_score, max_score), 
+    'endurance': random.randint(min_score, max_score), 
+    'lore': random.randint(min_score, max_score), 
+    'economic': random.randint(min_score, max_score), 
+    'strength': random.randint(min_score, max_score), 
+    'insanity': random.randint(min_score, max_score)
+  }
+}
+```
 3. Run all names from ***cultist_names*** thought the ***recruit_cultist*** method, and gather all the results in a ***cult*** dict
 4. Make the following dict ***cult_roles*** as below. Each value represents how importent a skill is for the given role:
 ```python
