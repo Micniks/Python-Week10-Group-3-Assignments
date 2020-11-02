@@ -42,7 +42,7 @@ cult_roles = {
 'Initiate': {'stealth': 1, 'influence': 1, 'endurance': 1, 'lore': 1, 'economic': 1, 'strength': 1, 'insanity': 1}
 }
 ```
-5. Make a method ***assign_cult_roles***, that takes the ***cult*** and ***cult_roles*** dicts, and returned the ***cult*** dict, where each name dict has gotten an attribute role. Each role should be assign on which of the roles have the highest 'score' when dotted between the name dict and the cult_roles.
+5. Make a method ***assign_cult_roles***, that takes the ***cult*** and ***cult_roles*** dicts, and returns a ***all_cultists_roles*** dict, where each name from the cult is a key, and each has it's given role as value. Each role should be assign on which of the roles have the highest 'score' when dotted between the name dict and the cult_roles.
 
 
 
