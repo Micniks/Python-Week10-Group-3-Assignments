@@ -32,7 +32,7 @@ cultist = {
 3. Run all names from ***cultist_names*** thought the ***recruit_cultist*** method, and gather all the results in a ***cult*** dict
 4. Make the following dict ***cult_roles*** as below. Each value represents how importent a skill is for the given role:
 ```python
-cult_roles {
+cult_roles = {
 'Priest': {'stealth': 0, 'influence': 3, 'endurance': 1, 'lore': 3, 'economic': 0, 'strength': 0, 'insanity': 5},
 'Enforcer': {'stealth': 1, 'influence': 1, 'endurance': 3, 'lore': 0, 'economic': 0, 'strength': 4, 'insanity': 1},
 'Assassin': {'stealth': 4, 'influence': -1, 'endurance': 2, 'lore': 1, 'economic': 0, 'strength': 2, 'insanity': 3},
