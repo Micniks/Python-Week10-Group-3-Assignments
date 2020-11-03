@@ -57,12 +57,9 @@ cult_roles = {
 6. Predict new recuits if total_amount decrease by 20% of the amount from 2020
 7. Reverse the data, to predict how much amount_spend should be, to make new_recruits equal to 2020
 
+**Bonus:** See how many cultist have left/died each year from the dataset. When you have the result, you know why to join the cult!
+
 <img src="https://thebingbutt.files.wordpress.com/2019/01/buttcultgathering.jpg" alt="Cult Gathering">
-
-
-
-## Assignment 3: PENDING...
-*Group has not fully understood Machine learning for Python, and need to research before posting a relevent assignment*
 
 _______________________
 
