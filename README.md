@@ -52,7 +52,7 @@ cult_roles = {
 1. Save the data from the ***cult_statistics.csv*** file in a variable ***cult_data*** *(You can use panda here)*
 2. Plot new recruits as a function to amount_spend.
 3. Plot new recruits as a function to total_amount.
-4. Make a model object from *klearn linear regression model* to use for the following assignments.
+4. Make a model object from *sklearn linear regression model* to use for the following assignments.
 5. Predict new recuits if amount_spend doubles the amount from 2020
 6. Predict new recuits if total_amount decrease by 20% of the amount from 2020
 7. Reverse the data, to predict how much amount_spend should be, to make new_recruits equal to 2020
